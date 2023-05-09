@@ -1,7 +1,19 @@
-
+import { logo } from "../assets"
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <header className="w-full flex justify-center items-center flex-col">
+        <nav className="flex justify-between items-center flex-col">
+            <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
+            <button
+            type="button"
+            onClick={() => window.open-('https://github.com/Oussama-Fajraoui')}
+            className="black_btn"
+            >
+                GitHub
+            </button>
+
+        </nav>
+    </header>
   )
 }
 
